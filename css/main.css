@@ -87,6 +87,76 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* FONT INFO 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/ 
+
+/********** MOBILE FIRST **********/
+
+/*** General styles ***/
+
+html {
+  background: #fafafa;
+  font-size: 16px;
+}
+
+body {
+  font-family:'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+h1 {
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+}
+
+h2, 
+h3 {
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif
+}
+
+    /* Header styles */
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+    /* Navigation styles */
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -175,8 +245,19 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+
+  /* --------- T A B L E T --------- */
+   @media only screen and (min-width: 768px) {
+    
+   /* General styles below */
+
+   }
+
+   /* -------- D E S K T O P -------- */
+@media screen and (min-width: 1200px) {
+
+  /* General styles */
+
 }
 
 @media print,
