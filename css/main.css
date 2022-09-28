@@ -124,6 +124,11 @@ h3 {
   font-family: 'Poppins', sans-serif
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
     /* Header styles */
 
 .content-wrapper {
@@ -131,6 +136,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-flow: row wrap;
 }
 
@@ -155,6 +161,10 @@ nav ul {
 nav ul li a {
   text-decoration: none;
 }
+
+    /* Skills styles */
+
+
 
 
 /* ==========================================================================
