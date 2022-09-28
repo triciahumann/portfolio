@@ -88,8 +88,8 @@ textarea {
    ========================================================================== */
 
 /* FONT INFO 
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
 */ 
 
 /********** MOBILE FIRST **********/
@@ -97,39 +97,48 @@ font-family: 'Poppins', sans-serif;
 /*** General styles ***/
 
 html {
-  background: #fafafa;
+  background: #f2e9e4;
   font-size: 16px;
 }
 
 body {
-  font-family:'Open Sans', sans-serif;
+  font-family:'Montserrat', sans-serif;
   font-size: 1em;
+  background-color: #f2e9e4;
 }
 
 .container {
   width: 100%;
-  display: flex;
-  flex-flow: row wrap;
 }
 
 h1 {
-  color: #e2e3ed;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 2.25em;
 }
 
+
+
 h2, 
 h3 {
-  color: #e2e3ed;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
+
+h3 {
+  text-transform: capitalize;
+}
+
 
 ul {
   list-style-type: none;
   padding: 0;
 }
 
-    /* Header styles */
+.boxed,
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
 .content-wrapper {
   width: 100%;
@@ -137,6 +146,12 @@ ul {
   align-items: center;
   text-align: center;
   flex-flow: row wrap;
+}
+    /* Header styles */
+
+header  {
+  background-color: #4a4e69;
+  color: #f2e9e4;
 }
 
     /* Navigation styles */
@@ -159,9 +174,64 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
+  color: #f2e9e4;
 }
 
+    /* Project section styles */
+#projects {
+  background-color: #f2e9e4;
+  color: #4a4e69;
+}
+
+#projects h2 {
+  color: #22223b;
+}
+
+.project-button {
+  background-color: #22223b;
+  border-radius: 12px;
+  width: 175px;
+  height: 35px;
+  transition-duration: 0.4s;
+}
+
+.project-button:hover {
+  background-color: #c9a9a7;
+}
+
+.project-button a {
+  color: #f2e9e4;
+}
+
+    /* Skills section styles */
+#skills {
+  background-color: #4a4e69;
+  color: #f2e9e4
+}
+
+    /* About me section styles */
+#about-me {
+  color: #4a4e69;
+}
+
+#about-me h2 {
+  color: #22223b;
+}
     /* Contact section styles */
+#contact {
+  background-color: #4a4e69;
+  color: #f2e9e4;
+}
+
+address {
+  font-style: normal;
+}
+
+.hire-me p a {
+  color: #f2e9e4;
+  text-transform: lowercase;
+}
+
 .social-icons {
   display: flex;
   justify-content: center;
@@ -174,6 +244,14 @@ nav ul li a {
   width: 25%;
 }
 
+i {
+  color: #f2e9e4;
+}
+
+    /* Footer styles */
+footer {
+  color: #22223b;
+}
 
 
 /* ==========================================================================
