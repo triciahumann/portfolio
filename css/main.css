@@ -133,7 +133,6 @@ ul {
 
 .content-wrapper {
   width: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -162,8 +161,18 @@ nav ul li a {
   text-decoration: none;
 }
 
-    /* Skills styles */
+    /* Contact section styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
 
+.social-icons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 25%;
+}
 
 
 
