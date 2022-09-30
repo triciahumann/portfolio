@@ -228,6 +228,10 @@ nav #contact-link {
   color: #22223b;
 }
 
+.project {
+  margin-bottom: 60px;
+}
+
 figure {
   margin: 0;
 }
@@ -241,25 +245,22 @@ figure {
   margin-bottom: 20px;
 }
 
-.project-button {
+a.project-button {
   background-color: #22223b;
-  border-radius: 12px;
-  width: 175px;
-  height: 35px;
-  transition-duration: 0.4s;
-  margin-bottom: 60px;
+  color: #f2e9e4;
   border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  vertical-align: middle;
+  font-weight: bold;
 }
 
-.project-button:hover {
+a.project-button:hover {
   background-color: #c9a9a7;
   border: none;
 }
 
-.project-button a {
-  color: #f2e9e4;
-  vertical-align: middle;
-}
 
     /* Skills section styles */
 #skills {
@@ -490,6 +491,7 @@ i {
 
   .project {
     width: 40%;
+    padding-bottom: 40px;
   }
 
   .project-list {
