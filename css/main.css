@@ -219,7 +219,8 @@ nav #contact-link {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 300px;
+  height: 300px;
   border-radius: 20px;
 }
 
@@ -494,6 +495,11 @@ i {
   .project-list {
     margin-top: 40px;
   }
+  
+  #projects img {
+    width: 100%;
+    height: auto;
+  }
 
   /* Skills section */
   #div .content-wrapper {
@@ -549,27 +555,35 @@ h2 {
 }
 
 h3 {
-  font-size: 1.875rem;
+  font-size: 1.75rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
 }
 
 a {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
-li.boxed {
-  font-size: 1.125rem;
-}
+
 
 .content-wrapper {
   max-width: 1200px;
+}
+
+/* Project section */
+.project-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project {
+  width: 30%;
 }
 
 .project-button {
@@ -577,8 +591,27 @@ li.boxed {
   height: 50px;
 }
 
+/* Skills section */
+li.boxed {
+  font-size: 1.125rem;
+  width: 25%;
+}
+
+/* Contact section */
+
+address {
+  width: 100%;
+}
+.contact-content {
+  width: 25%;
+}
+
 .phone-number {
   font-size: 1.5rem;
+}
+
+.follow-me-content {
+  width: 25%;
 }
 
 .follow-me li i {
