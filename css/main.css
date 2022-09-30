@@ -151,13 +151,6 @@ a {
   flex-flow: row wrap;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
 footer {
   color: #22223b;
   display: flex;
@@ -202,18 +195,36 @@ nav ul li a {
   font-weight: bold;
 }
 
+nav #contact-link {
+  background-color: #c9a9a7;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
     /* Project section styles */
 #projects {
   background-color: #f2e9e4;
   color: #4a4e69;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 60px;
+}
+
+#projects img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 20px;
 }
 
 #projects h2 {
   color: #22223b;
+}
+
+figure {
+  margin: 0;
 }
 
 #projects h4 {
@@ -231,15 +242,18 @@ nav ul li a {
   width: 175px;
   height: 35px;
   transition-duration: 0.4s;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  border: none;
 }
 
 .project-button:hover {
   background-color: #c9a9a7;
+  border: none;
 }
 
 .project-button a {
   color: #f2e9e4;
+  vertical-align: middle;
 }
 
     /* Skills section styles */
@@ -251,9 +265,14 @@ nav ul li a {
   flex-flow: row wrap;
 }
 
+#skills h2 {
+  margin-top: 60px;
+}
+
 .tools {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
     /* About me section styles */
@@ -265,6 +284,11 @@ nav ul li a {
 
 #about-me h2 {
   color: #22223b;
+  margin-top: 60px;
+}
+
+#about-me p {
+  margin-bottom: 40px;
 }
     /* Contact section styles */
 #contact {
@@ -273,6 +297,10 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+#contact h2 {
+  margin-top: 60px;
 }
 
 address {
@@ -298,6 +326,7 @@ address {
 
 i {
   color: #f2e9e4;
+  margin-bottom: 40px;
 }
 
 
