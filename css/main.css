@@ -136,6 +136,10 @@ ul {
   font-weight: bold;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .boxed,
 a {
   text-transform: uppercase;
@@ -269,6 +273,26 @@ figure {
   margin-top: 60px;
 }
 
+.skills-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.boxed {
+  background-color: #c9a9a7;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.tools-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 .tools {
   display: flex;
   justify-content: center;
@@ -287,6 +311,10 @@ figure {
   margin-top: 60px;
 }
 
+.about-me-content {
+  padding-bottom: 20px;
+}
+
 #about-me p {
   margin-bottom: 40px;
 }
@@ -297,6 +325,7 @@ figure {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding-bottom: 20px;
 }
 
 #contact h2 {
@@ -322,6 +351,11 @@ address {
   flex-direction: row;
   justify-content: space-around;
   width: 40%;
+  margin: 0;
+}
+
+.follow-me li i {
+  font-size: 1.5em;
 }
 
 i {
@@ -437,6 +471,15 @@ i {
     font-size: 1.5rem;
   }
 
+  .content-wrapper {
+    max-width: 640px;
+  }
+
+  /* Header section */
+  header .content-wrapper {
+    margin-bottom: 40px;
+  }
+
   /* Project section */
   .project-list {
     display: flex;
@@ -448,10 +491,47 @@ i {
     width: 40%;
   }
 
+  .project-list {
+    margin-top: 40px;
+  }
+
   /* Skills section */
   #div .content-wrapper {
     display: flex;
     justify-content: center;
+  }
+
+  .boxed {
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Contact section */
+  #contact h2 {
+    margin: 60px;
+  }
+
+  address {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  #contact h3 {
+    margin-top: 0;
+  }
+
+  .social-icons ul {
+    width: 100%;
+    margin: 0;
+  }
+
+  .follow-me li i {
+    font-size: 1.5rem;
   }
 
    }
@@ -462,13 +542,48 @@ i {
   /* General styles */
 h1 {
   font-size: 3.75rem;
-  width: 80%;
 }
 
 h2 {
-  font-size: ;
+  font-size: 2.75rem;
 }
 
+h3 {
+  font-size: 1.875rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+a {
+  font-size: 1.5rem;
+}
+
+li.boxed {
+  font-size: 1.125rem;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+}
+
+.project-button {
+  width: 250px;
+  height: 50px;
+}
+
+.phone-number {
+  font-size: 1.5rem;
+}
+
+.follow-me li i {
+  font-size: 2.75rem;
+}
 
 
 
