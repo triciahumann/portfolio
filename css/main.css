@@ -330,6 +330,10 @@ a.project-button:hover {
   padding-bottom: 20px;
 }
 
+#contact .content-wrapper {
+  width: 50%;
+}
+
 #contact h2 {
   margin-top: 60px;
 }
