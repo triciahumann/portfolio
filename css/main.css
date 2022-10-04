@@ -205,6 +205,10 @@ nav #contact-link {
   border-radius: 25px;
 }
 
+nav #contact-link:hover {
+  background-color: #F18A63;
+}
+
     /* Project section styles */
 #projects {
   background-color: #f2e9e4;
@@ -257,7 +261,7 @@ a.project-button {
 }
 
 a.project-button:hover {
-  background-color: #c9a9a7;
+  background-color: #F18A63;
   border: none;
 }
 
