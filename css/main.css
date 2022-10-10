@@ -326,9 +326,8 @@ a.project-button:hover {
 }
 
 .about-me-content img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  padding-top: 60px;
 }
 
 #about-me p {
@@ -491,9 +490,7 @@ i {
     font-size: 1.5rem;
   }
 
-  .content-wrapper {
-    max-width: 640px;
-  }
+  
 
   /* Header section */
   header .content-wrapper {
@@ -540,7 +537,8 @@ i {
   }
 
   /* About me section */
-  .about-me-content {
+
+  .about-me-description {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -554,15 +552,16 @@ i {
 
   .about-me-image img {
     padding-top: 0;
+    width: 100%;
   }
 
-  .about-me-description {
-    width: 40%;
+  .about-me-info {
+    width: 45%;
   }
 
   /* Contact section */
   #contact h2 {
-    margin: 60px;
+    margin: 60px 0;
   }
 
   /* About me section */
