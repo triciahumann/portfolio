@@ -325,6 +325,12 @@ a.project-button:hover {
   padding-bottom: 20px;
 }
 
+.about-me-content img {
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+}
+
 #about-me p {
   margin-bottom: 40px;
 }
@@ -533,9 +539,35 @@ i {
     align-items: center;
   }
 
+  /* About me section */
+  .about-me-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .about-me-image {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+
+  .about-me-image img {
+    padding-top: 0;
+  }
+
+  .about-me-description {
+    width: 40%;
+  }
+
   /* Contact section */
   #contact h2 {
     margin: 60px;
+  }
+
+  /* About me section */
+  #about-me .content-wrapper {
+    display: flex;
   }
 
   address {
