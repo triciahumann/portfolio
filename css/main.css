@@ -233,6 +233,9 @@ nav #contact-link:hover {
   color: #22223b;
 }
 
+.project p {
+  text-align: left;
+}
 .project {
   margin-bottom: 60px;
 }
