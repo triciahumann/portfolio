@@ -197,6 +197,7 @@ nav ul li a {
   text-decoration: none;
   color: #f2e9e4;
   font-weight: bold;
+  font-size: 12px;
 }
 
 nav #contact-link {
@@ -490,6 +491,10 @@ i {
     margin-bottom: 40px;
   }
 
+  nav ul li a {
+    font-size: 1.25rem;
+  }
+
   /* Project section */
   .project-list {
     display: flex;
@@ -581,10 +586,13 @@ a {
   font-size: 1.25rem;
 }
 
-
-
 .content-wrapper {
   max-width: 1200px;
+}
+
+/* Header section */
+nav ul li a {
+  font-size: 1.5rem;
 }
 
 /* Project section */
