@@ -355,6 +355,10 @@ address {
   font-style: normal;
 }
 
+p.contact-heading {
+  font-weight: bold;
+}
+
 .hire-me p a {
   color: #fafafa;
   text-transform: lowercase;
@@ -369,8 +373,7 @@ address {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 40%;
-  margin: 0;
+  width: 50%;
 }
 
 .follow-me li i {
@@ -560,6 +563,10 @@ i {
   /* Contact section */
   #contact h2 {
     margin: 60px 0;
+  }
+
+  p.contact-heading {
+    font-weight: normal;
   }
 
   /* About me section */
